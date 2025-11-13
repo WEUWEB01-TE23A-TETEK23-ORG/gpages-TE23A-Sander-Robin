@@ -1,10 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
 body{
-background-color: #105531;
+    background-color: #000000;
+    color: #fff;
+    font-family: "Barlow", sans-serif;
+    background-image: url(bilder/star.png);
+    background-size: contain;
+
+}
+.kontainer{
+    width: 800px;
+    margin: auto;
+    background-color: #353434e5;
+    border-radius: 5px;
+    box-shadow: 0px 4px 40px #55535389;
+
 }
 h1{
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #fff;
+    margin-bottom: 50px;
+    margin-left: 240px;
+    font-size: 90px;
+
+}
+h2{
+    margin-left: 240px;
+    padding: 30px;
+    font-size: 40px;
+
+}
+p.bildtext{
+    margin-left: 240px;
+    padding: 30px;
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+
+
+
+}
+img{
+    
+    width: 600px;
+    margin-left: 40px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 20px #000000;
+    
+
+}
+p.bildtext{
+    width: 500px;
+    margin: auto;
+
+    
+} 
+.box{
+    padding: 30px;
+    margin: 30px;
+    
 
     
 }
